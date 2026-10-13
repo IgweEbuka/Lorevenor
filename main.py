@@ -14,7 +14,7 @@ origin_region_WI = regions.Region(elements.Element.WIND)
 Night = characters.Character('Night', 'Male', origin_region_S, elements.Element.SHADOW, archetypes.Archetype.DPS)
 Terra = characters.Character('Terra', 'Female', origin_region_E, elements.Element.EARTH, archetypes.Archetype.TANK)
 Quranos = characters.Character('Quranos', 'Male', origin_region_L, elements.Element.LIGHT, archetypes.Archetype.SUPPORT)
-
+Kza = characters.Character('The KZA', 'Male', origin_region_S, elements.Element.EARTH, archetypes.Archetype.DPS)
 print(Night)
 print(Terra)
 print(Quranos)

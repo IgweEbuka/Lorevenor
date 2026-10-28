@@ -11,8 +11,7 @@ class Region:
     }
 
     def __init__(self, element: elements.Element):
-        self.name = self.REGION_NAMES[element]
         if not isinstance(element, elements.Element):
-            raise ValueError("...")
-        else:
-            self.element = element
+            raise ValueError("Region needs an Element, got something else")
+        self.name = self.REGION_NAMES[element]
+        self.element = element

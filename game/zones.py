@@ -45,6 +45,9 @@ class Zone:
         self.name = name
         self.zone_type = zone_type
         self.tier = tier
+
+    def __str__(self):
+        return f"{self.name} (Tier {self.tier})"
     
     @staticmethod
     def camp_randomizer(element, tier):

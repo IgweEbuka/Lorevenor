@@ -1,3 +1,3 @@
-# Veylora
-# Turn based multiplayer sorta thing.
+# Lorevenor
+# Turnbased single player rogulike
 # 

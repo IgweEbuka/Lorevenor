@@ -1,3 +1,3 @@
 # Lorevenor
-# Turnbased single player rogulike
+# Turnbased single player roguelike
 # 
